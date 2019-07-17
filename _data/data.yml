@@ -77,15 +77,22 @@ experiences:
       time: August 2018 - January 2019
       company: <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>.
       details: |
-        BrainStation23, globally leading one of the best software development company in Bangladesh.
-        We help to transform your business into the digital sphere.
+        Very few days I got time to participate directly in coding after being into this position, although I love to code. At the same time, I love to lead a team towards a bigger goal.  So, I started managing projects. It was like my learning time to be into the project management role. Managed 4 projects s during this time.
 
     - role: Software Engineer (intern)
       time: April 2018 - July 2018
       company: <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>.
       details: |
-        BrainStation23, globally leading one of the best software development company in Bangladesh.
-        We help to transform your business into the digital sphere.
+        Despite of being an intern, I got the chance to directly participate in some interesting and important projects of Brain Station 23. I learned by myself and none other than google. Somehow I was able to solve problems without any person’s guidance which brought me out of the crowd(sometimes self-appreciation is good).
+        
+        **What i did:**
+        * Made an automated web crawler using python bs4 to collect applier’s data from bdjob.com’s against a job circular.
+        * Developed an automation script using python bs4 to download 10k 3D photos from a website then upload them into a PHP CMS.
+        * Did a POC for Standard Charted Bank, Bangladesh, it’s an automated script using python to find some specific data from CIB report PDFs then map all those specific data into an excel sheet, also needed to do some calculation using those data.
+        * Another POC for Grameenphone using python OpenCV and google cloud vision API to extract text from BD NID card.
+        * POC for product image background removes projects.
+
+
 
     - role: Web Developer (remote)
       time: March 2017 - July 2017
