@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Abdur Rakib
+    tagline: Project Coordinator/Cloud Solution Specialist
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hello@rakib.xyz
+    website: rakib.xyz #do not add http://
+    linkedin: abdurrakib0
+    github: abdurrakib0
+    twitter: '@abdurrakib0'
+
+    languages:
+      - idiom: Bangla
+        level: Native
+
+      - idiom: English
+        level: Professional
+        
+    interests:
+      - item: Reading Book
+        link:
+
+      - item: Listen To Music
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+     <p>A curious person who loves to explore new cheese (challenges) and can priorities work based on the situation. 
+     In my everyday life, I drink espresso & pull my hair to solve problems & mitigate my project challenges.<br> <br> Currently working as a Project Manager at <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>, 
+     focused on <strong>Customer Success, Employee Happiness & Usable solution delivery on time.</strong></p>
+
+education:
+    - degree: BSc in Computer Science
+      university: North South University
+
+    - degree: HSC in Science
+      university: Notre Dame College, Dhaka
+
+experiences:
+    - role: Project Coordinator (Project Management)
+      time: February 2019 - Present
+      company: <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>.
+      details: |
+        Brain Station 23, globally leading one of the best software development company in Bangladesh.
+        We help to transform your business into the digital sphere.
+
+        **What i do:**
+
+        * Activity and resource planning. 
+        * Organizing and motivating a project team.
+        * Controlling time management.
+          * Define activity.
+          * Sequence activity.
+          * Estimate the duration of activity.
+          * Develop a schedule.
+          * Maintain a schedule.
+        * Cost estimating and developing the budget.
+        * Ensuring customer satisfaction & Success.
+        * Analyzing and managing project risk.
+        * Monitoring progress.
+        * Managing reports and necessary documentation.
+        * Agile Methodology Practitioner.
+        * Cloud Solution specialist(Digital Ocean, Azure, Google, AWS cloud).
+        
+        
+    - role: Software Engineer
+      time: August 2018 - January 2019
+      company: <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>.
+      details: |
+        BrainStation23, globally leading one of the best software development company in Bangladesh.
+        We help to transform your business into the digital sphere.
+
+    - role: Software Engineer (intern)
+      time: April 2018 - July 2018
+      company: <a href="https://www.brainstation-23.com/" target="_blank">Brain Station 23 ltd</a>.
+      details: |
+        BrainStation23, globally leading one of the best software development company in Bangladesh.
+        We help to transform your business into the digital sphere.
+
+    - role: Web Developer (remote)
+      time: March 2017 - July 2017
+      company: <a href="https://trademarkangel.com/" target="_blank">Trademark Angel inc, Canada.</a>
+      details: |
+        Got this using Upwork.com. Wroked as a web developer, made their official website, custom WP theme, custom CSS.
+
+projects:
+    title: Projects
+    intro: >
+
+    assignments:
+      - title: MeenaClick by Meena Bazar
+        link: "http://bit.ly/2InWbCf"
+        role: Cloud Solution Expert
+        tagline: "Migrated the current meenaclick.com from shared hosting to AWS. Using RDS, EC2 & VPC for this migration." 
+
+      - title: Esho Shikhi Learning App
+        link: "http://bit.ly/2IoU8xV"
+        role: Project Manager
+        tagline: "This is one of the challenging and exciting projects I & my team ever done. We've used react native for this project, developing a cross-platform mobile application. It's a video streaming app, students watch educational videos using the app. Video security is a big concern in this app. Also, react native isn't so strong for video streaming till now. My team is doing a fantastic job. Also, the app user growth is so high. We needed to be careful about the server optimization 
+        to handle more users & ensure better smooth user experience."
+      
+      - title: Pulse Healthcare Services
+        link: "http://bit.ly/2Iqe9nO"
+        role: Project Manager
+        tagline: "Pulse is a cloud-based telemedicine platform which aims to revolutionize the healthcare system in Bangladesh. This software seamlessly allows patients access to virtual wellness. It integrates effortlessly into clinical workflows of life science professionals to facilitate remote free-flow of communication between health care practitioners and patients. The cloud-based platform, enables live video, audio consultation between patients and doctors in Bangladesh /abroad, online appointment setting and fully encrypted medical record sharing possibilities. It has web & mobile application(iOS & android)"
+      
+      - title: AMS For <a href="https://partexstargroup.com/" target="_blank"> Partex Star Group</a>
+        link: "http://bit.ly/2IqaOVO"
+        role: Project Manager
+        tagline: "This is an approval management system for Partex Star Group. All of their 26 subsidiary companies use this
+        software daily basis for their internal approval."
+      
+      - title: e-pharma by Lazz Pharma ltd.
+        link: "http://bit.ly/2Y1FRww"
+        role: Project Manager
+        tagline: "It's an online medicine delivery application. Customers can order medicine through their mobile app, then e-pharma manages and delivers those medicine from a web admin panel, can assign delivery man. Delivery men have a separate app, where they update about the delivery process. Built on PHP/Laravel(web & admin), Android, iOS app."
+      
+      - title: applybd.com
+        link: "https://applybd.com/"
+        role: Project Manager
+        tagline: "A  Decentralized Admission Portal, by this you can apply to any institution in one single click."
+      
+      - title: Invoicing and Full Accounting
+        link: 
+        role: Project Manager
+        tagline: "An full phased invoicing app built on laravel, by this web-app SME can send invoice to thier customers and the customer can pay by online using a shortlink which is sent to his email and sms."
+
+      - title: SAAS ERP
+        link: 
+        role: Project Manager
+        tagline: "An SAAS ERP which supports SME to get the facility of an ERP."
+
+      - title: starteasy.today
+        link: 
+        role: Assistant Project Manager
+        tagline: "It's an online platform for Entrepreneur to register thier business in govt. Built using Django."
+
+      
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Project Management
+        level: 95%
+        
+      - name: Problem Solving
+        level: 100%  
+
+      - name: Agile & Scrum
+        level: 98%
+
+      - name: Startup Enthusiast
+        level: 100%
+
+      - name: JavaScript, NodeJS, ReactJS
+        level: 91%
+
+      - name: Python & Django
+        level: 78%
+
+      - name: PHP & Laravel
+        level: 60%
+      
+      - name: Secure API Design
+        level: 97%
+
+      - name: DevOps
+        level: 77%
+
+
+footer: >
+    Go Back To <i class="fas fa-home"></i> <a href="https://rakib.xyz/">HomePage</a>
