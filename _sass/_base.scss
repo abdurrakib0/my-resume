@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans' !important;
   color: $text-color-secondary;
   background: $smoky-white;
   font-size: 14px;
@@ -16,6 +16,19 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+.LI-badge-container.vertical.dark {
+  width: 100% !important;
+}
+
+.LI-badge-container.vertical.dark .LI-profile-pic {
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
 }
 
 a {
