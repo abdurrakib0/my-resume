@@ -3,7 +3,7 @@
 
   <div class="profile-container">
 
-    {% if sidebar.name %}
+    <!-- {% if sidebar.name %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
@@ -13,21 +13,27 @@
 
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
+    {% endif %} -->
 
-  </div><!--//profile-container-->
+    <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+      data-theme="dark" data-vanity="abdurrakib0"><a class="LI-simple-link"
+        href='https://bd.linkedin.com/in/abdurrakib0?trk=profile-badge'>Abdur Rakib</a></div>
+  </div>
+  <!--//profile-container-->
 
   {% include contact.html %}
 
+
   {% if sidebar.education %}
-    {% include education.html %}
+  {% include education.html %}
   {% endif %}
 
   {% include language.html %}
   {% include interests.html %}
 
   {% if sidebar.about %}
-    {% include about.html %}
+  {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>
+<!--//sidebar-wrapper-->
